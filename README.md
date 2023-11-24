@@ -21,7 +21,7 @@ pathman /au C:\Program Files\R\R-4.2.0\bin\x64\
 ```
 
 ## Required R libraries
-* Use following command in the command prompt to install required R libraries:                                                         
+* Use following command in the command prompt run as administrator to install required R libraries:                                                         
 ```bash
 Rscript -e "install.packages(c('kernlab','randomForest','caret','class'),repos='https://cloud.r-project.org', dependencies=TRUE)"
 ```
