@@ -43,7 +43,7 @@ Rscript -e "install.packages(c('kernlab','randomForest','caret','class'),repos='
 * CLSTN2
 * ADAMTS5
 
-#### **See the sample_data.csv in ``data`` folder.*
+#### **See the sample_data.csv for reference.*
 #### If gene expression values are non normalized, then normalize them using log2 normalization 
 
 ### 1. Download the repository and save all the files and folders of repository in one folder.
