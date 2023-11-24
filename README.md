@@ -46,13 +46,13 @@ Rscript -e "install.packages(c('kernlab','randomForest','caret','class'),repos='
 #### **See the sample_data.csv for reference.*
 #### If gene expression values are non normalized, then normalize them using log2 normalization 
 
-### 1. Download the repository and save all the files and folders of repository in one folder.
-### 2. Then Use the follwing command by changing current working directory to the folder where repository predict.R is saved.
+#### 1. Download the repository and save all the files and folders of repository in one folder.
+#### 2. Then Use the follwing command by changing current working directory to the folder where repository predict.R is saved.
 ```bash
 Rscript predict.R
 ```
-### 3. User wil be prompted to select ``.csv`` file of sample gene expression data of above 14 genes.  
-### 4. Once the .csv file is selected and the process is completed, results will be saved in ``ovarian_cancer_prediction.csv`` file.
+#### 3. User wil be prompted to select ``.csv`` file of sample gene expression data of above 14 genes.  
+#### 4. Once the .csv file is selected and the process is completed, results will be saved in ``ovarian_cancer_prediction.csv`` file.
 
 
 
