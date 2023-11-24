@@ -1,7 +1,7 @@
 
 # Ovarian Cancer Prediction using ML
 
-ML based classificaton model to predict given sample is tumor or normal.
+**OC_Pred** is ML based classificaton model to predict given sample is tumor or normal.
 
 
 ## Contents
