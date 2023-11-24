@@ -26,7 +26,7 @@ pathman /au C:\Program Files\R\R-4.2.0\bin\x64
 Rscript -e "install.packages(c('kernlab','randomForest','caret','class'),repos='https://cloud.r-project.org', dependencies=TRUE)"
 ```
 ## Usage
-### To make the prediction need log2 normalized gene expression values of following set of genes in following order:
+**To make the prediction need log2 normalized gene expression values of following set of genes in following order:**
 
 * KRT18
 * HOXB2
@@ -43,16 +43,17 @@ Rscript -e "install.packages(c('kernlab','randomForest','caret','class'),repos='
 * CLSTN2
 * ADAMTS5
 
-#### **See the sample_data.csv for reference.*
-#### If gene expression values are non normalized, then normalize them using log2 normalization 
+***See the sample_data.csv for reference.***
 
-#### 1. Download the repository and save all the files and folders of repository in one folder.
-#### 2. Then Use the follwing command by changing current working directory to the folder where repository predict.R is saved.
+**If gene expression values are non normalized, then normalize them using log2 normalization** 
+
+1. Download the repository and save all the files and folders of repository in one folder.
+2. Then Use the follwing command by changing current working directory to the folder where repository predict.R is saved.
 ```bash
 Rscript predict.R
 ```
-#### 3. User wil be prompted to select ``.csv`` file of sample gene expression data of above 14 genes.  
-#### 4. Once the .csv file is selected and the process is completed, results will be saved in ``ovarian_cancer_prediction.csv`` file.
+3. User wil be prompted to select ``.csv`` file of sample gene expression data of above 14 genes.  
+4. Once the .csv file is selected and the process is completed, results will be saved in ``ovarian_cancer_prediction.csv`` file.
 
 
 
