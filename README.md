@@ -12,12 +12,12 @@ ML based classificaton model to predict given sample is tumor or normal.
 * make sure to add the path of R language to the sytem environment variables.
 For adding path of R language to system environment variable use following command:                        
 ```bash
-pathman /au C:\Program Files\R\R-4.3.2\bin\x64\
+pathman /au C:\Program Files\R\R-4.3.2\bin\x64
 ```                                                                               
 Above command is for R version 4.3.2, change it according to the R version installed               
 For example for R version 4.2.0:                                                       
 ```bash
-pathman /au C:\Program Files\R\R-4.2.0\bin\x64\
+pathman /au C:\Program Files\R\R-4.2.0\bin\x64
 ```
 
 ## Required R libraries
