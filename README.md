@@ -1,4 +1,3 @@
-
 # Ovarian Cancer Prediction using ML
 
 **OC_Pred** is ML based classificaton model to predict given sample is tumor or normal.
@@ -55,6 +54,11 @@ Rscript predict.R
 3. User wil be prompted to select ``.csv`` file of sample gene expression data of above 14 genes.  
 4. Once the .csv file is selected and the process is completed, results will be saved in ``ovarian_cancer_prediction.csv`` file.
 
+## Citation
+If you use  **OC_Pred** in your publication, consider citing the [paper](https://jmhg.springeropen.com/articles/10.1186/s43042-025-00779-4):
+```
+Kamble, P., Sandhu, H., Puri, V. et al. Integrative bioinformatics, statistical, and survival analysis reveals potential molecular biomarkers of ovarian cancer. Egypt J Med Hum Genet 26, 152 (2025). https://doi.org/10.1186/s43042-025-00779-4
+```
 
 
 
